@@ -1,0 +1,19 @@
+# R / RStudio junk
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Shiny / deployment
+rsconnect/
+
+# Big data + models (do NOT push to GitHub)
+rdata_raw/
+data_intermediate/
+data_processed/
+models/
+eval/
+
+# Project files
+*.Rproj

@@ -1,0 +1,23 @@
+# Ignore workspace and history files
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user
+
+data_intermediate/.RData
+data_intermediate/.Rapp.history
+
+# Ignore raw WorldClim data - not needed in bundle
+rdata_raw/
+
+# Don't send local torch installation
+^libtorch/
+
+# Don't send the huge old IUCN file (even if it's gone, this is safe)
+^data_intermediate/iucn_ranges_mammals_amphibians_compressed.rds$
+
+# Usual junk
+^\\.git/
+^.*\\.Rproj$
+^.*\\.Rhistory$
+^.*\\.RData$
