@@ -534,6 +534,8 @@ ui <- fluidPage(
           h3("Authorship"),
           p("Shiny app and SINR-style prototype implementation by ", strong("Aleena Munshi"), "."),
           p("This is a ", strong("Stats 20 Final Project"), "."),
+          p("Source code available on GitHub: ",tags$a(href = "https://github.com/aleenabean/sdm-comparison-app",
+              target = "_blank","github.com/aleenabean/sdm-comparison-app")),
           h3("Contact"),
           p("Email: ", tags$a(href = "mailto:aleenamunshi001@ucla.edu", "aleenamunshi001@ucla.edu"))
         )
